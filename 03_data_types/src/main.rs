@@ -1,25 +1,25 @@
 use std::io;
-/*
-    Data Types
-    - Scalar
-        - Unsigned Int: u8-128
-        - Signed Int: i8-128 (Two's complement)
-        - arch: isize/usize
-    - Number literals
-        - Separator '_'
-        - Hex 0x...
-        - Octal 0o...
-        - Binary 0b...
-        - byte (u8) b'...'
-    - Real
-        - f32, f64 (default)
-    - chars
-        - 4 bytes
-        - single quotes
-    - Compounds
-        - Tuple 
-        - Array
-*/
+
+    //Data Types
+    //- Scalar
+        //- Unsigned Int: u8-128
+        //- Signed Int: i8-128 (Two's complement)
+        //- arch: isize/usize
+    //- Number literals
+        //- Separator '_'
+        //- Hex 0x...
+        //- Octal 0o...
+        //- Binary 0b...
+        //- byte (u8) b'...'
+    //- Real
+        //- f32, f64 (default)
+    //- chars
+        //- 4 bytes
+        //- single quotes
+    //- Compounds
+        //- Tuple 
+        //- Array
+
 fn main() {
     let a = [1, 2, 3, 4, 5];
 
