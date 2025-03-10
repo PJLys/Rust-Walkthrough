@@ -22,7 +22,6 @@ fn main() {
     let word = first_word(&my_string_literal);
     println!("the first word is: {word}");
 
-
     // Because string literals *are* string slices already,
     // this works too, without the slice syntax!
     let word = first_word(my_string_literal);
