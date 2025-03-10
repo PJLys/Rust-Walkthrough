@@ -15,6 +15,10 @@ impl Rectangle {
     fn area(&self) -> u32 {
         self.width * self.height
     }
+    
+    fn can_hold(&self, other: &Rectangle) -> bool {
+        self.width > other.width && self.height > other.height
+    }
 }
 
 //fn main() {
@@ -33,8 +37,16 @@ fn main() {
         width: 30,
         height: 50,
     };
+
+    let rect2 = Rectangle {
+        width: 15,
+        height: 40
+    };
+
     dbg!(&rect1);
     println!("rect1 is {rect1:#?} and has an area of {}", rect1.area());
+
+    println!("rect2 fits into rect1? {}", rect1.can_hold(&rect2))
 }
 
 
